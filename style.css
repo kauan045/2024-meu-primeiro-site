@@ -44,3 +44,49 @@ h1{
     color: var(--chocolate);
     font-family: var(--fonte-titulo);
 }
+.principal-capa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-image: url(img/menu.webp);
+    background-repeat: no-repeat;
+    margin-left: 12px;
+    padding: 24px 12px;
+}
+.principal-capa_conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.principal-capa_titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 32px;
+    color: var(--cor-dois);
+    margin-bottom: 12px;
+}
+.principal-capa_texto{
+    font-size: 24px;
+    margin-top: 24px;
+}
+.principal-capa_imagem{
+    border-radius: 0 5% 0 5%;
+}
+.principal-capa_combotao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.principal-capa_botao{
+    background-color: var(--cor-um);
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 2em;
+    color: var(--cor-dois);
+    text-decoration: none;
+}
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--cor-dois);
+    color: var(--cor-dois);
+}

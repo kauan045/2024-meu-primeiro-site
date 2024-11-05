@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --creme: #f3e9dcff;
+    --caramelo: #c08552ff;
+    --chocolate: #5e3023ff;
+    --marrom-claro: #895737ff;
+    --chocolate-branco: #dab49dff;
+    --fonte-titulo: "Pacifico", cursive;
+    --fonte-texto: "Gowun Batang", serif;
+}
+body{
+    background-color: var(--chocolate-branco);
+    font-family: var(--fonte-texto);
+}
+
+h1{
+    background-color: rgb(175, 97, 51);
+}
+.cabecalho{
+    background-color: var(--caramelo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cabecalho{
+    background-color: var(--marrom-claro);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cabecalho-img{
+    width: 10%;
+    margin: 2em;
+}
+.cabecalho-link{
+    text-decoration: none;
+    font-size: 2em;
+    color: var(--chocolate);
+    font-family: var(--fonte-titulo);
+}
